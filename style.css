@@ -307,3 +307,26 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+/* Home Section */
+#home {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #e0f2fe;
+}
+
+#home h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#home h1 {
+    font-size: 45px;
+    margin: 10px 0;
+}
+
+#home p {
+    max-width: 700px;
+    margin: 15px auto;
+    font-size: 18px;
+}
+
