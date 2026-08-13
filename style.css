@@ -401,4 +401,27 @@ nav a:hover {
 #skills li:hover {
     transform: translateY(-3px);
 }
+/* Projects Section */
+#projects {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #f8fafc;
+}
+
+#projects h2 {
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+#projects h3 {
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+#projects p {
+    max-width: 650px;
+    margin: 10px auto;
+    line-height: 1.6;
+    font-size: 17px;
+}
 
