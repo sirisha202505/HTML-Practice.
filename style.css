@@ -424,4 +424,38 @@ nav a:hover {
     line-height: 1.6;
     font-size: 17px;
 }
+/* Education Section */
+#education {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #e0f2fe;
+}
+
+#education h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+#education table {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+#education th,
+#education td {
+    padding: 15px;
+    border: 1px solid #cbd5e1;
+}
+
+#education th {
+    background-color: #172554;
+    color: white;
+}
+
+#education tr:hover {
+    background-color: #f1f5f9;
+}
 
