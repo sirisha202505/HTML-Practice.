@@ -458,4 +458,51 @@ nav a:hover {
 #education tr:hover {
     background-color: #f1f5f9;
 }
+/* Contact Section */
+#contact {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #f8fafc;
+}
+
+#contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+#contact form {
+    max-width: 500px;
+    margin: auto;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#contact button {
+    padding: 12px 30px;
+    background-color: #172554;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    transform: translateY(-2px);
+}
+
 
