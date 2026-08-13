@@ -273,3 +273,37 @@ footer p {
         font-size: 14px;
     }
 }
+/* Your existing CSS */
+...your existing code...
+
+
+/* Professional Header */
+header {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
