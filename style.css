@@ -366,4 +366,39 @@ nav a:hover {
     color: white;
     border-radius: 20px;
 }
+/* Skills Section */
+#skills {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #e0f2fe;
+}
+
+#skills h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+#skills h3 {
+    margin-top: 25px;
+    font-size: 22px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 8px;
+    padding: 12px 22px;
+    background-color: #172554;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#skills li:hover {
+    transform: translateY(-3px);
+}
 
