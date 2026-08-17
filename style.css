@@ -1,519 +1,81 @@
-/* =========================
-   GENERAL STYLES
-========================= */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
+body{
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f7fb;
-    color: #333;
+    margin:0;
+    padding:0;
+    background:#f4f4f4;
+    color:#333;
 }
 
-
-/* =========================
-   HEADER
-========================= */
-
-header {
-    background-color: #172554;
-    color: white;
-    text-align: center;
-    padding: 30px 20px;
-}
-
-header h1 {
-    font-size: 36px;
-    margin-bottom: 15px;
-}
-
-nav {
-    margin-top: 15px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 12px;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #93c5fd;
-}
-
-
-/* =========================
-   SECTIONS
-========================= */
-
-section {
-    max-width: 1000px;
-    margin: 30px auto;
-    padding: 40px;
-    background-color: white;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-}
-
-section h2 {
-    color: #172554;
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-section h3 {
-    color: #2563eb;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-section p {
-    margin-bottom: 15px;
-}
-
-
-/* =========================
-   HOME SECTION
-========================= */
-
-#home {
-    text-align: center;
-    padding: 70px 30px;
-}
-
-#home h2 {
-    font-size: 24px;
-}
-
-#home h1 {
-    font-size: 48px;
-    color: #2563eb;
-    margin: 15px 0;
-}
-
-#home p {
-    max-width: 700px;
-    margin: 10px auto;
-}
-
-
-/* =========================
-   LISTS
-========================= */
-
-ul,
-ol {
-    margin-left: 25px;
-}
-
-li {
-    margin: 8px 0;
-}
-
-
-/* =========================
-   PROJECT CARDS
-========================= */
-
-#projects {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-}
-
-#projects h2 {
-    grid-column: 1 / -1;
-}
-
-#projects h3 {
-    background-color: #eff6ff;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 0;
-}
-
-#projects p {
-    background-color: #f8fafc;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-
-/* =========================
-   TABLE
-========================= */
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-
-th,
-td {
-    padding: 14px;
-    text-align: left;
-    border: 1px solid #ddd;
-}
-
-th {
-    background-color: #172554;
-    color: white;
-}
-
-tr:nth-child(even) {
-    background-color: #f1f5f9;
-}
-
-
-/* =========================
-   CONTACT FORM
-========================= */
-
-form {
-    max-width: 600px;
-}
-
-label {
-    font-weight: bold;
-}
-
-input,
-textarea {
-    width: 100%;
-    padding: 12px;
-    margin-top: 6px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 16px;
-}
-
-input:focus,
-textarea:focus {
-    outline: none;
-    border-color: #2563eb;
-}
-
-
-/* =========================
-   BUTTON
-========================= */
-
-button {
-    background-color: #2563eb;
-    color: white;
-    border: none;
-    padding: 12px 25px;
-    border-radius: 6px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #172554;
-}
-
-
-/* =========================
-   FOOTER
-========================= */
-
-footer {
-    background-color: #172554;
-    color: white;
-    text-align: center;
-    padding: 30px;
-    margin-top: 40px;
-}
-
-footer p {
-    margin: 5px;
-}
-
-
-/* =========================
-   MOBILE RESPONSIVE
-========================= */
-
-@media (max-width: 700px) {
-
-    header h1 {
-        font-size: 28px;
-    }
-
-    nav a {
-        display: block;
-        margin: 10px;
-    }
-
-    section {
-        margin: 20px 10px;
-        padding: 25px;
-    }
-
-    #home h1 {
-        font-size: 36px;
-    }
-
-    #projects {
-        grid-template-columns: 1fr;
-    }
-
-    table {
-        font-size: 14px;
-    }
-}
-/* Your existing CSS */
-...your existing code...
-
-
-/* Professional Header */
-header {
-    background-color: #172554;
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
-}
-
-header h1 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 25px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-/* Home Section */
-#home {
-    text-align: center;
-    padding: 100px 20px;
-    background-color: #e0f2fe;
-}
-
-#home h2 {
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-
-#home h1 {
-    font-size: 45px;
-    margin: 10px 0;
+header{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
 }
 
-#home p {
-    max-width: 700px;
-    margin: 15px auto;
-    font-size: 18px;
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
 }
-/* About Section */
-#about {
-    text-align: center;
-    padding: 80px 20px;
-    background-color: #f8fafc;
-}
-
-#about h2 {
-    font-size: 32px;
-    margin-bottom: 25px;
-}
-
-#about p {
-    max-width: 750px;
-    margin: 15px auto;
-    font-size: 18px;
-    line-height: 1.7;
-}
-
-#about h3 {
-    margin-top: 30px;
-    font-size: 24px;
-}
-
-#about ul {
-    list-style: none;
-    padding: 0;
-}
-
-#about li {
-    display: inline-block;
-    margin: 8px;
-    padding: 10px 18px;
-    background-color: #172554;
-    color: white;
-    border-radius: 20px;
-}
-/* Skills Section */
-#skills {
-    text-align: center;
-    padding: 80px 20px;
-    background-color: #e0f2fe;
-}
-
-#skills h2 {
-    font-size: 32px;
-    margin-bottom: 30px;
-}
-
-#skills h3 {
-    margin-top: 25px;
-    font-size: 22px;
-}
-
-#skills ul {
-    list-style: none;
-    padding: 0;
-}
-
-#skills li {
-    display: inline-block;
-    margin: 8px;
-    padding: 12px 22px;
-    background-color: #172554;
-    color: white;
-    border-radius: 8px;
-    font-weight: bold;
-}
-
-#skills li:hover {
-    transform: translateY(-3px);
-}
-/* Projects Section */
-#projects {
-    text-align: center;
-    padding: 80px 20px;
-    background-color: #f8fafc;
-}
-
-#projects h2 {
-    font-size: 32px;
-    margin-bottom: 35px;
-}
-
-#projects h3 {
-    font-size: 22px;
-    margin-top: 30px;
-}
-
-#projects p {
-    max-width: 650px;
-    margin: 10px auto;
-    line-height: 1.6;
-    font-size: 17px;
-}
-/* Education Section */
-#education {
-    text-align: center;
-    padding: 80px 20px;
-    background-color: #e0f2fe;
-}
 
-#education h2 {
-    font-size: 32px;
-    margin-bottom: 30px;
+section{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 
-#education table {
-    width: 90%;
-    max-width: 800px;
-    margin: auto;
-    border-collapse: collapse;
-    background-color: white;
+h1,h2,h3{
+    color:#222;
 }
 
-#education th,
-#education td {
-    padding: 15px;
-    border: 1px solid #cbd5e1;
+ul{
+    padding-left:20px;
 }
 
-#education th {
-    background-color: #172554;
-    color: white;
+table{
+    width:100%;
+    border-collapse:collapse;
 }
 
-#education tr:hover {
-    background-color: #f1f5f9;
+table,th,td{
+    border:1px solid #ddd;
 }
-/* Contact Section */
-#contact {
-    text-align: center;
-    padding: 80px 20px;
-    background-color: #f8fafc;
-}
-
-#contact h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-}
 
-#contact p {
-    font-size: 18px;
-    margin-bottom: 25px;
+th,td{
+    padding:10px;
+    text-align:center;
 }
 
-#contact form {
-    max-width: 500px;
-    margin: auto;
+input,textarea{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:5px;
 }
 
-#contact input,
-#contact textarea {
-    width: 100%;
-    padding: 12px;
-    margin: 8px 0;
-    border: 1px solid #cbd5e1;
-    border-radius: 6px;
-    font-size: 16px;
-    box-sizing: border-box;
+button{
+    background:#222;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
 }
 
-#contact button {
-    padding: 12px 30px;
-    background-color: #172554;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    cursor: pointer;
+button:hover{
+    background:#444;
 }
 
-#contact button:hover {
-    transform: translateY(-2px);
+footer{
+    text-align:center;
+    background:#222;
+    color:white;
+    padding:15px;
 }
-/* Footer */
-footer {
-    background-color: #172554;
-    color: white;
-    text-align: center;
-    padding: 30px 20px;
-}
 
-footer p {
-    margin: 8px 0;
-}
 
 
